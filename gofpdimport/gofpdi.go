@@ -6,7 +6,7 @@ Users should call NewImporter() to obtain their own Importer instance to work wi
 To retain backwards compatibility, the package offers a default Importer that may be used via global functions. Note
 however that use of the default Importer is not thread safe.
 */
-package pkg
+package gofpdimport
 
 import (
 	"io"
